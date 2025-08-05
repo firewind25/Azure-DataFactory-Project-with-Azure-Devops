@@ -1,0 +1,6 @@
+{
+	"name": "cpm-SelfHosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

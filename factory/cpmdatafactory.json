@@ -1,0 +1,9 @@
+{
+	"name": "cpmdatafactory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4edd9c7d-09e8-4e93-b556-88284231303b",
+		"tenantId": "c1f825e4-65b6-4739-ba49-71a0bd3b26af"
+	}
+}
