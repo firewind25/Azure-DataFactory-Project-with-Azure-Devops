@@ -1,5 +1,5 @@
 # Azure Data Factory Project with Azure DevOps
-
+![Diagram](architecture.png)
 ## Project Overview
 This project demonstrates an end-to-end data engineering solution using Azure Data Factory and Azure DevOps, implementing modern data architecture patterns and automated deployment practices.
 
@@ -9,18 +9,18 @@ This project demonstrates an end-to-end data engineering solution using Azure Da
 - **DevOps Integration**: Automated deployment and version control systems
 
 ## Key Features
-- 🔄 Data Migration & Integration
+- Data Migration & Integration
   - On-premises to Azure Blob Storage migration
   - REST API data ingestion
   - Azure SQL Database to Data Lake transformation
   
-- 🛠️ Technical Implementation
+- Technical Implementation
   - Incremental data loading patterns
   - Multi-format data transformations (Delta Lake, Parquet, JSON)
   - Automated pipeline orchestration
   - Logic Apps monitoring and alerts
 
-- 📊 Data Processing
+- Data Processing
   - ETL/ELT workflows
   - Data quality checks
   - Transformation logic
@@ -34,17 +34,6 @@ This project demonstrates an end-to-end data engineering solution using Azure Da
 - Delta Lake
 - Git
 
-## Setup and Configuration
-1. Clone this repository
-2. Configure Azure resources:
-   - Data Factory
-   - Storage accounts
-   - SQL Database
-   - Logic Apps
-3. Set up Azure DevOps pipeline
-4. Configure connection strings and parameters
-5. Deploy the solution
-
 ## Pipeline Structure
 - Source data extraction
 - Raw data ingestion
@@ -52,27 +41,7 @@ This project demonstrates an end-to-end data engineering solution using Azure Da
 - Load to target systems
 - Monitoring and logging
 
-## DevOps Integration
-- Version control with Git
-- CI/CD pipeline configuration
-- Automated testing
-- Deployment automation
-
-## Monitoring
-- Logic Apps alert system
-- Pipeline execution monitoring
-- Error handling and logging
-- Performance metrics
-
-## Best Practices Implemented
-- Incremental loading
-- Error handling
-- Logging and monitoring
-- Code versioning
-- Automated deployment
-- Data quality checks
-
 ## Contributing
 Feel free to submit issues, fork the repository, and create pull requests for any improvements.
-![Diagram](architecture.png)
+
 
